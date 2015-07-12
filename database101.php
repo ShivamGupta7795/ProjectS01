@@ -85,8 +85,10 @@
 				<td id="column1"><?php echo $row['username']; ?></td>
 				<td id="column2"><?php echo $row['email']; ?></td>
 				<td id="column3"><?php echo $row['DOB']; ?></td>
+				<td id="column4"><?php echo $row['pass']; ?></td>
 
 			</tr>
+
 		</table>
 			
 		<?php 
