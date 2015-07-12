@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+body{
+	background-image: url("../img/dubai.png");
+}
+
+
+.innerlogin{
+	
+	
+	position: relative;
+	width:400px;
+	opacity:1;
+	/*z-index:1000;*/
+	color: white;
+	
+
+}
+
+.loginpage{
+	height:auto;
+	margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+	border-top: 2px solid orange;
+	background-color: rgba(0,0,0,.5);
+	
+}
+
+
+a{
+	color: white;
+	font-weight: bold;
+
+}
+.cols_span{
+	
+	height: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+	margin: auto;
+	opacity: 1;
+	/*background-color: red;*/
+}
+
+h1,h3{
+	text-align: center;
+	opacity: 1;
+	position: relative;
+	z-index: 500;
+	
+}
+
+h1{
+	/*background-color: rgb(64,110,243);*/
+	color: white;
+}
+
+.col_one{
+	
+	
+	text-align: center;
+	margin: auto;
+	float: left;
+	opacity: 1;
+	position: relative;
+	z-index: 500;
+
+	}
+.col_two{
+	
+	height: 30px;
+	/*float: left;*/
+	padding-left: 80px;
+	text-align: center;	
+	margin: auto;
+	opacity: 1;
+	position: relative;
+	z-index: 500;
+	
+}
+
+.row{
+	
+	height: 30px;
+	padding-bottom: 20px;
+	opacity: 1;
+	/*border: 1px solid red;*/
+}
+
+.buttonone{
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(10,10,200,.5);
+	
+
+}
+
+@media only screen and (min-width:1001px) and (max-width: 1920px){
+	.loginpage{
+		width: 100%;
+		border-bottom: 2px solid orange;
+	}
+	.innerlogin{
+		width: 1000px;
+		margin: auto;
+	}
+	.colspan{
+		width: 500px;
+	}
+
+	.col_one{
+		padding-left: 300px;
+	}
+	.col_two{
+		width: 300px;
+	}
+	.row{
+		width: 1350px;
+	}
+}
+
+@media only screen and (min-width:600px) and (max-width: 1000px){
+	.loginpage{
+		width: 100%;
+		border-bottom: 2px solid orange;
+	}
+
+	.innerlogin{
+		width: 600px;
+		margin: auto;
+	}
+
+	.colspan{
+		width: 200px;
+	}
+
+	.col_one{
+		padding-left: 50px;
+	}
+	.col_two{
+		width: 150px;
+	}
+	.row{
+		width: 600px;
+	}
+
+}
